@@ -66,6 +66,16 @@ body {
   color: var(--accent-color);
 }
 
+/* Header container */
+.container {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  outline: 2px solid aqua;
+}
+
 /* Hero */
 .section-hero {
   background-color: var(--first-bg-color);
@@ -82,6 +92,12 @@ body {
 
 /*Button on Hero */
 .hero-button {
+  display: block;
+  border-radius: 4px;
+  padding: 10px 32px;
+  border: 0;
+  margin-left: auto;
+  margin-right: auto;
   background-color: var(--hero-text-color);
   color: var(--title-text-color);
   font-weight: 700;
@@ -90,6 +106,7 @@ body {
   letter-spacing: 0.06em;
   text-align: center;
   font-family: inherit;
+  border: 0;
 }
 
 .hero-button:hover,
