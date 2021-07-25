@@ -201,6 +201,8 @@ body {
 
 /* Site footer ! */
 .footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
   background-color: var(--first-bg-color);
 }
 
@@ -238,6 +240,9 @@ body {
 .footer-link:hover,
 .footer-link:focus {
   color: var(--accent-color);
+}
+.adress {
+  padding-top: 20px;
 }
 
 /* Portfolio section ! */
