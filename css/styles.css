@@ -30,6 +30,14 @@ body {
   border: 1px solid #ececec;
 }
 
+.headers {
+  display: flex;
+}
+
+.header-nav {
+  display: flex;
+}
+
 .navigation-logo {
   color: var(--accent-color);
   text-decoration: none;
@@ -55,6 +63,10 @@ body {
   margin-right: 50px;
 }
 
+.nav-item:last-child {
+  margin-right: 0;
+}
+
 .navigation-link {
   text-decoration: none;
   color: var(--title-text-color);
@@ -71,6 +83,18 @@ body {
 
 .navigation-link.current {
   color: var(--accent-color);
+}
+
+.header-contacts {
+  display: flex;
+}
+
+.link-item {
+  margin-right: 50px;
+}
+
+.link-item:last-child {
+  margin-right: 0px;
 }
 
 .contact-link {
