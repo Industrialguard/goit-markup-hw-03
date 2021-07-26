@@ -16,17 +16,20 @@ body {
   letter-spacing: 0.03em;
 }
 
-/* Header container */
+/* Container */
 .container {
   width: 1200px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
-  outline: 2px solid aqua;
 }
 
 /* Site header */
+.page-header {
+  border: 1px solid #ececec;
+}
+
 .navigation-logo {
   color: var(--accent-color);
   text-decoration: none;
@@ -42,6 +45,14 @@ body {
 
 .list {
   list-style: none;
+}
+
+.site-nav {
+  display: flex;
+}
+
+.nav-item {
+  margin-right: 50px;
 }
 
 .navigation-link {
@@ -78,8 +89,13 @@ body {
 
 /* Hero */
 .section-hero {
+  max-width: 1600px;
+  padding-bottom: 200px;
+  padding-top: 200px;
+  margin-left: auto;
+  margin-right: auto;
+
   background-color: var(--first-bg-color);
-  outline: 2px solid aquamarine;
   text-align: center;
 }
 
@@ -97,11 +113,13 @@ body {
 
 /*Button on Hero */
 .hero-button {
+  display: inline-block;
   border-radius: 4px;
   padding: 10px 32px;
   min-width: 200px;
   margin-left: auto;
   margin-right: auto;
+
   border-color: transparent;
   background-color: var(--hero-text-color);
   color: var(--title-text-color);
@@ -125,6 +143,7 @@ body {
 /*Features*/
 .section-features {
   padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .feature-list {
@@ -148,7 +167,6 @@ body {
 
 /*Activity */
 .section-activity {
-  padding-top: 94px;
   padding-bottom: 94px;
 }
 
@@ -210,6 +228,9 @@ body {
 }
 
 .footer-logo {
+  display: inline-block;
+  margin-bottom: 20px;
+
   color: var(--accent-color);
   font-family: Raleway;
   font-weight: 700;
@@ -222,11 +243,10 @@ body {
   color: var(--white-text-color);
 }
 
-.adress {
-  margin-top: 20px;
-}
-
 .adress-text {
+  display: inline-block;
+  margin-bottom: 9px;
+
   color: var(--white-text-color);
   font-style: normal;
   font-size: 14px;
@@ -235,7 +255,6 @@ body {
 
 .footer-list {
   list-style: none;
-  margin-top: 9px;
 }
 .footer-item {
   margin-bottom: 9px;
@@ -245,6 +264,8 @@ body {
 }
 
 .footer-link {
+  display: inline-block;
+
   color: var(--footer-link-color);
   font-style: normal;
   text-decoration: none;
