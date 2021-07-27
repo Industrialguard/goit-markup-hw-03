@@ -369,6 +369,10 @@ img {
 
 /* Portfolio section ! */
 
+.section-cards {
+  padding-top: 353px;
+}
+
 /* Buttons */
 .button-list {
   display: flex;
@@ -411,6 +415,8 @@ img {
 /* Cards ! */
 
 .cards-list {
+  margin-top: 50px;
+
   list-style: none;
 }
 .card-link {
@@ -420,6 +426,9 @@ img {
   line-height: 1.87;
 }
 .card-title {
+  margin-top: 20px;
+  margin-bottom: 0;
+
   color: var(--title-text-color);
   font-weight: 700;
   font-size: 18px;
@@ -427,6 +436,11 @@ img {
   letter-spacing: 0.06em;
 }
 
+.card-text {
+  margin-top: 4px;
+  margin-bottom: 0;
+  padding-bottom: 20px;
+}
 /* Global elements */
 ul {
   margin: 0;
