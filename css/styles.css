@@ -59,6 +59,7 @@ body {
 
 .site-nav {
   display: flex;
+  margin-left: 93px;
 }
 
 .nav-item {
@@ -70,6 +71,7 @@ body {
 }
 
 .navigation-link {
+  display: block;
   text-decoration: none;
   color: var(--title-text-color);
   font-weight: 500;
@@ -88,7 +90,9 @@ body {
 }
 
 .header-contacts {
+  display: block;
   display: flex;
+  margin-left: auto;
 }
 
 .link-item {
@@ -173,11 +177,23 @@ body {
 .section-features {
   padding-top: 94px;
   padding-bottom: 94px;
+  outline: 2px solid aqua;
 }
 
 .feature-list {
+  display: flex;
   list-style: none;
 }
+
+.feature-item {
+  width: 270px;
+  margin-right: 30px;
+}
+
+.feature-item:last-child {
+  margin-right: 0;
+}
+
 .feature-title {
   color: var(--title-text-color);
   font-weight: 700;
