@@ -371,6 +371,9 @@ img {
 
 /* Buttons */
 .button-list {
+  display: flex;
+  justify-content: center;
+
   list-style: none;
 }
 
@@ -394,6 +397,15 @@ img {
   background-color: var(--accent-color);
   color: var(--white-text-color);
   cursor: pointer;
+}
+
+.button-item {
+  margin-right: 8px;
+  display: inline-block;
+}
+
+.button-item:last-child {
+  margin-right: 0;
 }
 
 /* Cards ! */
