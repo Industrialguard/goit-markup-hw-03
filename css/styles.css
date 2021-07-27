@@ -227,8 +227,19 @@ body {
 }
 
 .activity-list {
+  display: flex;
+
   list-style: none;
 }
+
+.activity-item {
+  margin-right: 30px;
+}
+
+.activity-item:last-child {
+  margin-right: 0;
+}
+
 /* Team */
 .section-team {
   background-color: var(--hero-text-color);
