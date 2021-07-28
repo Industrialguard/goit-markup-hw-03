@@ -37,6 +37,15 @@ img {
   padding-right: 15px;
 }
 
+/* Interactive title */
+.visually-hidden {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+}
+
 /* Site header */
 .page-header {
   border: 1px solid #ececec;
