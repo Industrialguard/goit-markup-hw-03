@@ -48,6 +48,12 @@ img {
 
 /* Site header */
 .page-header {
+  max-width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 24px;
+  padding-bottom: 25px;
+
   border: 1px solid #ececec;
 }
 
@@ -261,9 +267,13 @@ img {
 
 /* Team */
 .section-team {
-  background-color: var(--hero-text-color);
+  max-width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
   padding-top: 94px;
   padding-bottom: 94px;
+
+  background-color: var(--hero-text-color);
 }
 
 .team-title {
@@ -317,6 +327,9 @@ img {
 
 /* Site footer ! */
 .footer {
+  max-width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
   padding-top: 60px;
   padding-bottom: 60px;
   background-color: var(--first-bg-color);
