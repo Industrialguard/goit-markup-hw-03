@@ -48,7 +48,6 @@ img {
 
 /* Site header */
 .page-header {
-  max-width: 1600px;
   margin-left: auto;
   margin-right: auto;
   padding-top: 24px;
@@ -146,7 +145,6 @@ img {
 
 /* Hero */
 .section-hero {
-  max-width: 1600px;
   padding-bottom: 200px;
   padding-top: 200px;
   margin-left: auto;
@@ -267,7 +265,6 @@ img {
 
 /* Team */
 .section-team {
-  max-width: 1600px;
   margin-left: auto;
   margin-right: auto;
   padding-top: 94px;
@@ -327,9 +324,6 @@ img {
 
 /* Site footer ! */
 .footer {
-  max-width: 1600px;
-  margin-left: auto;
-  margin-right: auto;
   padding-top: 60px;
   padding-bottom: 60px;
   background-color: var(--first-bg-color);
